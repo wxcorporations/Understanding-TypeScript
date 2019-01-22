@@ -1,11 +1,11 @@
 /**********************************
-       FUNCOES EM TYPESCRIPT
+ FUNCOES EM TYPESCRIPT
  **********************************/
 //  - DEVE-SE PASSAR O TIPO DE RETORNO CASO TENHA RETORNO  [ : TIPO ]
 //  - SE A FUNCAO NAO POSSUIR RETORNO DEVE SE PASSAR O VALOR   [ : VOID ]
 //  - TODOS PARAMETROS DA FUNCAO DEVE POSSUIR UM TIPO [ STRING , NUMBER , NUM , {} , ARRAY , TUPLA  ...]
 /***********************************
-        FUNCOES COM RETORNO
+ FUNCOES COM RETORNO
  **********************************/
 // SINTAXE 1
 //-----------------------------------------
@@ -20,7 +20,7 @@ var func_typescript = function () {
 };
 console.log(func_typescript());
 /***********************************
-    FUNCOES SEM RETORNO  [ : VOID ]
+ FUNCOES SEM RETORNO  [ : VOID ]
  **********************************/
 var soma = 0;
 var func_types = function (v1, v2) {
@@ -29,7 +29,7 @@ var func_types = function (v1, v2) {
 func_types(5, 10);
 console.log(soma);
 /***********************************
-            PARAMETROS
+ PARAMETROS
  **********************************/
 function exibir_infor(nome, idade) {
     return nome + '' + idade;
