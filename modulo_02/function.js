@@ -35,3 +35,4 @@ function exibir_infor(nome, idade) {
     return nome + '' + idade;
 }
 console.log(exibir_infor('fernando j', 29));
+//# sourceMappingURL=function.js.map

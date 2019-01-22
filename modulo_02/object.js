@@ -48,3 +48,4 @@ var carro_eletrico_alias = {
 console.log(carro_eletrico_alias.motor.nome);
 console.log(carro_eletrico_alias.taxa[1]);
 console.log(carro_eletrico_alias.calc(10, 25));
+//# sourceMappingURL=object.js.map

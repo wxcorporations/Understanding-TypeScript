@@ -46,3 +46,4 @@ moto = 500;
 console.log(moto);
 moto = ['nx-250', 500, 2018];
 console.log(moto[0]);
+//# sourceMappingURL=variaveis.js.map

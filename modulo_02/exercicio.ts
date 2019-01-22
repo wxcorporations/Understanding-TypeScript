@@ -1,6 +1,6 @@
 /*
 ***************************************************
-*       Converta o codigo es6 par typescript
+*       Converta o codigo es5 par typescript
 * *************************************************
 
 codigo :
@@ -57,6 +57,6 @@ let daniel : person = {
 myself.bankAccount.deposit(3000 );
 console.log( myself );
 
-// valor nao sera atribuido a conta pois implementacao esta errada
+// valor nao sera atribuido a conta ja que implementacao esta errada
 myself.bankAccount.deposit(10000 );
 console.log( daniel );   // propriedade money continuara como o mesmo valor da implementacao 1500

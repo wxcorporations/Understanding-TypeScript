@@ -1,6 +1,6 @@
 /*
 ***************************************************
-*       Converta o codigo es6 par typescript
+*       Converta o codigo es5 par typescript
 * *************************************************
 
 codigo :
@@ -27,14 +27,14 @@ var _this = this;
 var bankAccount = {
     money: 2000,
     deposit: function (value) {
-        return this.money += value;
+        this.money += value;
     }
 };
 var bankAccountDaniel = {
     money: 1500,
     // EXEMPLO DE IMPLEMENTACAO ERRADA UTILIZANDO ARROW FUNC NO LUGAR DE FUNC
     deposit: function (value) {
-        return _this.money += value;
+        _this.money += value;
     }
 };
 var myself = {
@@ -49,6 +49,7 @@ var daniel = {
 };
 myself.bankAccount.deposit(3000);
 console.log(myself);
-// valor nao sera atribuido a conta pois implementacao esta errada
+// valor nao sera atribuido a conta ja que implementacao esta errada
 myself.bankAccount.deposit(10000);
 console.log(daniel); // propriedade money continuara como o mesmo valor da implementacao 1500
+//# sourceMappingURL=exercicio.js.map
