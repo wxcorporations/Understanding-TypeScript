@@ -1,1 +1,1 @@
-{"version":3,"file":"namespace.js","sourceRoot":"","sources":["namespace.ts"],"names":[],"mappings":""}
+{"version":3,"file":"namespace.js","sourceRoot":"","sources":["namespace.ts"],"names":[],"mappings":"AAAA,IAAU,GAAG,CAQZ;AARD,WAAU,GAAG;IACT,IAAM,EAAE,GAAY,IAAI,CAAE;IAC1B,SAAgB,kBAAkB,CAAE,QAAiB;QACjD,OAAO,QAAQ,GAAG,EAAE,CAAE;IAC1B,CAAC;IAFe,sBAAkB,qBAEjC,CAAA;IACD,SAAgB,SAAS,CAAE,IAAa,EAAG,IAAa;QACpD,OAAO,IAAI,GAAG,IAAI,CAAE;IACxB,CAAC;IAFe,aAAS,YAExB,CAAA;AACL,CAAC,EARS,GAAG,KAAH,GAAG,QAQZ"}
