@@ -16,10 +16,11 @@
  *
  *      PALAVRAS_RESERVADAS ------------------------
  *
- *          [ export , import ]
+ *          [ export , import , default ]
  *
  *          export : deixa disponivel um recurso para acesso externo do arquivo.
  *          import : carrega recurso disponiveis do arquivo externo.
+ *          default : pode ser utilizado apenas umas vez por modul ele vem apos a palavra export
  *
  *      BENEFICIOS ------------------------
  *
@@ -28,15 +29,22 @@
  *
  *      SINTAXE ------------------------
  *
+ *          import de export default :
+ *          import import   nome_recurso  from  " ./caminho/arquivo_externo.ts" ;
+ *
+ *          import de export normal
  *          import { nome_recurso } from  " ./caminho/arquivo_externo.ts" ;
  *
- *          - nome_recurso : e oque esta disponivel de acesso no arquivo externo
+ *          - nome_recurso :
+ *          e oque esta disponivel de acesso no arquivo externo
  *
 
  * */
 Object.defineProperty(exports, "__esModule", { value: true });
 var modulo_soma_1 = require("./modulo_soma");
 var modulo_circulo_1 = require("./modulo_circulo");
+var modulo_soma_2 = require("./modulo_soma");
 console.log('Calcular circunferencia', modulo_circulo_1.calc_circunferencia(250));
 console.log('Calcular somar', modulo_soma_1.calc_soma(5, 250));
+console.log("Utilizando export default: ", modulo_soma_2.default);
 //# sourceMappingURL=modulos.js.map

@@ -15,10 +15,11 @@
  *
  *      PALAVRAS_RESERVADAS ------------------------
  *
- *          [ export , import ]
+ *          [ export , import , default ]
  *
  *          export : deixa disponivel um recurso para acesso externo do arquivo.
  *          import : carrega recurso disponiveis do arquivo externo.
+ *          default : pode ser utilizado apenas umas vez por modul ele vem apos a palavra export
  *
  *      BENEFICIOS ------------------------
  *
@@ -26,10 +27,15 @@
  *          mais claro e facil de encontrar.
  *
  *      SINTAXE ------------------------
- *
+ *          
+ *          import de export default :
+ *          import import   nome_recurso  from  " ./caminho/arquivo_externo.ts" ;
+ *          
+ *          import de export normal
  *          import { nome_recurso } from  " ./caminho/arquivo_externo.ts" ;
  *
- *          - nome_recurso : e oque esta disponivel de acesso no arquivo externo
+ *          - nome_recurso : 
+ *          e oque esta disponivel de acesso no arquivo externo
  *
 
  * */
@@ -37,6 +43,9 @@
 
 import { calc_soma } from "./modulo_soma" ;
 import { calc_circunferencia } from "./modulo_circulo";
+import infor from "./modulo_soma";
+
 
 console.log('Calcular circunferencia' , calc_circunferencia(250) ) ;
 console.log( 'Calcular somar' , calc_soma(5 ,250) ) ;
+console.log( "Utilizando export default: ", infor);

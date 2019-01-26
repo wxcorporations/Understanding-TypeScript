@@ -43,7 +43,7 @@
 
 namespace Cal {
     const PI : number = 3.14 ;
-    export function calc_circuferencia( diametro : number) : number{
+    export function calc_circuferencia1( diametro : number) : number{
         return diametro * PI ;
     }
 }

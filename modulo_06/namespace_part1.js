@@ -43,9 +43,9 @@
 var Cal;
 (function (Cal) {
     var PI = 3.14;
-    function calc_circuferencia(diametro) {
+    function calc_circuferencia1(diametro) {
         return diametro * PI;
     }
-    Cal.calc_circuferencia = calc_circuferencia;
+    Cal.calc_circuferencia1 = calc_circuferencia1;
 })(Cal || (Cal = {}));
 //# sourceMappingURL=namespace_part1.js.map

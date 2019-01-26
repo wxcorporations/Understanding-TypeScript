@@ -1,3 +1,3 @@
-console.log('Utilizando func circuferencia namespace :', Cal.calc_circuferencia(25));
-console.log('Utilizando func soma do namespace : ', Cal.calc_soma(5, 2));
+console.log('Utilizando func circuferencia namespace :', Cal.calc_circuferencia1(25));
+console.log('Utilizando func soma do namespace : ', Cal.calc_soma1(5, 2));
 //# sourceMappingURL=app.js.map
